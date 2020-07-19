@@ -19,11 +19,18 @@ p{ font-size: 1em; color: #777;}
 .cabecalho{width: 100%; float: left; padding: 50px 8%; background-color: #070B4A;}
 .logo a{width: 212px; height: 96px; float: left; background: url(../img/GM.png) no-repeat; font-size: 0;}
 .cabecalho form{width: 30%; float: right;}
-.cabecalho form input[type="text"]{ width: 85%; float: left; padding: 15px 10px;}
-.cabecalho form button{width: 15%;float: right; padding: 15px 10px; background-color: #4273dd; color:#fff; cursor: pointer;}
+.cabecalho form input[type="text"]{ width: 85%; float: left; padding: 15px 10px; border-radius: 5px 0 0 5px}
+.cabecalho form button{width: 15%;float: right; padding: 15px 10px; background-color: #4273dd; color:#fff; cursor: pointer; border-radius: 0 5px 5px 0;}
 
 /*MENU - NAV  Aula 4*/
-.menu{width: 100%; float: left; background-color: cornflowerblue; padding: 18px 8%;}
+.menu{width: 100%; float: left; background-color: #4273dd; padding: 18px 8%;}
 .menu li{float: left;}
 .menu li a{color: #070B4A; margin-right: 25px;}
 .menu li a:hover{color: snow;}
+
+/* SOCIAL-ICONS redes sociais Aula 5*/
+.social-icons{float: right;}
+.social-icons a{color: #fff; float: left; margin-left: 12px;}
+.btn-facebook:hover{color: #3b5998;}
+.btn-twitter:hover{color:  #1C9CEA;}
+.btn-google:hover{color: #E44134;}
