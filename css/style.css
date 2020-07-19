@@ -1,4 +1,4 @@
-/*RESET*/
+/*RESET Aula 1 e 2*/
 *{
     margin: 0;
     padding: 0;
@@ -14,9 +14,16 @@ ul{ list-style: none;}
 a{ text-decoration: none;}
 h2{ font-size: 1.5em; color: #333;}
 p{ font-size: 1em; color: #777;}
-/*Formatação CABEÇALHO*/
+
+/* CABEÇALHO - HEADER Aula 3*/
 .cabecalho{width: 100%; float: left; padding: 50px 8%; background-color: #070B4A;}
 .logo a{width: 212px; height: 96px; float: left; background: url(../img/GM.png) no-repeat; font-size: 0;}
 .cabecalho form{width: 30%; float: right;}
 .cabecalho form input[type="text"]{ width: 85%; float: left; padding: 15px 10px;}
-.cabecalho form button{width: 15%;float: right; padding: 15px 10px; background-color: #0cae98; color:#fff; cursor: pointer;}
+.cabecalho form button{width: 15%;float: right; padding: 15px 10px; background-color: #4273dd; color:#fff; cursor: pointer;}
+
+/*MENU - NAV  Aula 4*/
+.menu{width: 100%; float: left; background-color: cornflowerblue; padding: 18px 8%;}
+.menu li{float: left;}
+.menu li a{color: #070B4A; margin-right: 25px;}
+.menu li a:hover{color: snow;}
